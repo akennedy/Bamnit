@@ -1,0 +1,37 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
+info using npm@1.1.0-alpha-2
+info using node@v0.6.3
+verbose config file /Users/andrew/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose caching /Users/andrew/apps/bamnit/package.json
+verbose loadDefaults bamnit@0.0.1
+verbose run-script [ 'prestart', 'start', 'poststart' ]
+info prestart bamnit@0.0.1
+info start bamnit@0.0.1
+verbose unsafe-perm in lifecycle true
+silly exec sh "-c" "server.js"
+silly spawning [ 'sh', [ '-c', 'server.js' ], '/Users/andrew/apps/bamnit' ]
+info bamnit@0.0.1 Failed to exec start script
+ERR! bamnit@0.0.1 start: `server.js`
+ERR! `sh "-c" "server.js"` failed with 127
+ERR! 
+ERR! Failed at the bamnit@0.0.1 start script.
+ERR! This is most likely a problem with the bamnit package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     server.js
+ERR! You can get their info via:
+ERR!     npm owner ls bamnit
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Darwin 10.8.0
+ERR! command "node" "/usr/local/bin/npm" "start"
+ERR! cwd /Users/andrew/apps/bamnit
+ERR! node -v v0.6.3
+ERR! npm -v 1.1.0-alpha-2
+ERR! code ELIFECYCLE
+ERR! message bamnit@0.0.1 start: `server.js`
+ERR! message `sh "-c" "server.js"` failed with 127
+verbose exit [ 1, true ]
